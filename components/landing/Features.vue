@@ -1,52 +1,52 @@
 <script setup>
 const features = [
   {
-    title: "Bring Your Own Framework",
+    title: 'Customizable Control Interfaces',
     description:
-      "Build your site using Vue, web components, or just plain ol' HTML + JavaScript.",
-    icon: "bx:bxs-briefcase",
+      'Craft your control interface using Vue, web components, or traditional HTML + JavaScript.',
+    icon: 'bx:bxs-briefcase',
   },
   {
-    title: "100% Static HTML, No JS",
+    title: 'Efficient Static Rendering',
     description:
-      "Nuxt renders your entire page to static HTML, removing all JavaScript from your final build by default.",
-    icon: "bx:bxs-window-alt",
+      'Our system renders your entire interface to static HTML, eliminating unnecessary JavaScript from the final output.',
+    icon: 'bx:bxs-window-alt',
   },
   {
-    title: "On-Demand Components",
+    title: 'Dynamic Component Loading',
     description:
-      "Need some JS? Nuxt can automatically hydrate interactive components when they become visible on the page.  ",
-    icon: "bx:bxs-data",
+      'Require dynamic components? Our platform can dynamically load interactive elements as needed, enhancing user experience.',
+    icon: 'bx:bxs-data',
   },
   {
-    title: "Broad Integration",
+    title: 'Versatile Integration',
     description:
-      "Nuxt supports TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and any other npm packages.",
-    icon: "bx:bxs-bot",
+      'Our solution seamlessly integrates with TypeScript, Scoped CSS, CSS Modules, Sass, Tailwind, Markdown, MDX, and other essential npm packages.',
+    icon: 'bx:bxs-bot',
   },
   {
-    title: "SEO Enabled",
+    title: 'Optimized for Search Engines',
     description:
-      "Automatic sitemaps, RSS feeds, pagination and collections take the pain out of SEO and syndication. It just works!",
-    icon: "bx:bxs-file-find",
+      'Enjoy automatic generation of sitemaps, RSS feeds, pagination, and collections for effortless SEO and content syndication.',
+    icon: 'bx:bxs-file-find',
   },
   {
-    title: "Community",
+    title: 'Thriving Community Support',
     description:
-      "Nuxt is an open source project powered by hundreds of contributors making thousands of individual contributions.",
-    icon: "bx:bxs-user",
+      'Join our vibrant community of contributors who are continually enhancing our platform with their invaluable contributions.',
+    icon: 'bx:bxs-user',
   },
-];
+]
 </script>
 
 <template>
   <div class="mt-16 md:mt-0">
     <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
-      Everything you need to start a website
+      Everything you need to control your "Bagger"
     </h2>
     <p class="text-lg mt-4 text-slate-600">
-      Nuxt comes batteries included. It takes the best parts of state-of-the-art
-      tools and adds its own innovations.
+      Our platform offers a wide range of features to help you manage your
+      "Bagger" with ease.
     </p>
   </div>
 

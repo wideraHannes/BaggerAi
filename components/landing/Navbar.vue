@@ -1,24 +1,24 @@
 <script setup>
 const menuitems = [
   {
-    title: "Features",
-    path: "#",
+    title: 'Features',
+    path: '#',
   },
   {
-    title: "Pricing",
-    path: "/pricing",
+    title: 'Pricing',
+    path: '/pricing',
   },
   {
-    title: "About",
-    path: "/about",
+    title: 'About',
+    path: '/about',
   },
   {
-    title: "Contact",
-    path: "/contact",
+    title: 'Contact',
+    path: '/contact',
   },
-];
+]
 
-const open = ref(false);
+const open = ref(false)
 </script>
 
 <template>
@@ -26,8 +26,8 @@ const open = ref(false);
     <header class="flex flex-col lg:flex-row justify-between items-center my-5">
       <div class="flex w-full lg:w-auto items-center justify-between">
         <a href="/" class="text-lg"
-          ><span class="font-bold text-slate-800">Nuxt</span
-          ><span class="text-slate-500">ship</span>
+          ><span class="font-bold text-slate-800">Bagger</span
+          ><span class="text-slate-500">AI</span>
         </a>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
